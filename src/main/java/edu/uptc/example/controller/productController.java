@@ -1,5 +1,9 @@
 package edu.uptc.example.controller;
 
+import edu.uptc.example.entityes.product;
+
+import edu.uptc.example.service.ProductService;
+import edu.uptc.handling.ResponseHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,9 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import parcialSpringDeisyMonroy.entities.product;
-import parcialSpringDeisyMonroy.responses.ResponseHandler;
-import parcialSpringDeisyMonroy.services.ProductService;
 
 @RestController
 public class productController {
@@ -25,6 +26,7 @@ public class productController {
             return ResponseHandler.generateResponse(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, null);
         }
     }
+
     @PostMapping("/saveProduct")
     public ResponseEntity<Object> addProducts(@RequestBody product product) {
         try {

@@ -1,14 +1,15 @@
 package edu.uptc.example.controller;
 
+import edu.uptc.handling.ResponseHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import parcialSpringDeisyMonroy.entities.customers;
-import parcialSpringDeisyMonroy.entities.product;
-import parcialSpringDeisyMonroy.entities.sale;
-import parcialSpringDeisyMonroy.responses.ResponseHandler;
-import parcialSpringDeisyMonroy.services.SaleService;
+import edu.uptc.example.entityes.customers;
+import edu.uptc.example.entityes.product;
+import edu.uptc.example.entityes.sale;
+
+import edu.uptc.example.service.SaleService;
 
 import java.util.List;
 

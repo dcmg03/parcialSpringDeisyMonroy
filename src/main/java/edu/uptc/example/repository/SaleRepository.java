@@ -2,8 +2,8 @@ package edu.uptc.example.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import parcialSpringDeisyMonroy.entities.product;
-import parcialSpringDeisyMonroy.entities.sale;
+import edu.uptc.example.entityes.product;
+import edu.uptc.example.entityes.sale;
 
 import java.util.List;
 

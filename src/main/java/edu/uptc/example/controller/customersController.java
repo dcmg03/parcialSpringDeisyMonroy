@@ -1,10 +1,13 @@
 package edu.uptc.example.controller;
 
+import edu.uptc.example.entityes.customers;
+
+import edu.uptc.example.service.CustomerService;
+import edu.uptc.handling.ResponseHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 public class customersController {
