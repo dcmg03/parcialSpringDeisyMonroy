@@ -12,8 +12,8 @@
 	<artifactId>parcialSpringDeisyMonroy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>parcial3_JuliethBecerra</name>
-	<description>parcial3_JuliethBecerra</description>
+	<name>springDeisyMonroy</name>
+	<description>springDeisyMonroy</description>
 	<properties>
 		<java.version>17</java.version>
 		<springdoc.openapi.starter.webmvc.ui.version>2.0.2</springdoc.openapi.starter.webmvc.ui.version>
